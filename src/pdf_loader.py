@@ -1,7 +1,10 @@
 from pypdf import PdfReader
 
+folder_path = r"C:\Users\Sumed\Desktop\rag_assistant\data"
 
-def pdf_loader():
+def pdf_loader(folder_path):
+    
+    reader = PdfReader(folder_path + '\Mathematics of Deep Learning.pdf')
     page_counter = 0
     total_words = 0
     words_per_page = []
