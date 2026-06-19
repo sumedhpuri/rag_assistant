@@ -1,6 +1,6 @@
 from pypdf import PdfReader
 
-folder_path = r"C:\Users\Sumed\Desktop\rag_assistant\data\*pdf"
+# folder_path = r"C:\Users\Sumed\Desktop\rag_assistant\data\*pdf"
 
 def pdf_loader(folder_path):
     pdf_files = glob.glob(folder_path)
